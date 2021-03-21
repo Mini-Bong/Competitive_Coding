@@ -45,6 +45,8 @@ string LongestPalindromicSubstr(string str)
 				max_len = high-low+1;
 				start = low;
 			}
+			low--;
+			high++;
 		}
 	}
 	cout<<"The length of the longest palindrom substring is :"<<max_len<<"\n";
