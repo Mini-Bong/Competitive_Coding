@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1600078878 source:e:\c_programs\policy_based_datastructure\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+	<functional>
+	<iostream>
+

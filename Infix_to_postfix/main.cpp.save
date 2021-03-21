@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string str;
+    cout<<"Enter your infix expression:";
+    cin>>s;
+
+    return 0;
+}

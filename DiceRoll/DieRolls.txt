@@ -1,0 +1,6 @@
+The number of ones rolled was 1687. The percentage of ones rolled was 16.87%.
+The number of twos rolled was 1695. The percentage of ones rolled was 16.95%.
+The number of threes rolled was 1683. The percentage of ones rolled was 16.83%.
+The number of fours rolled was 1604. The percentage of ones rolled was 16.04%.
+The number of fives rolled was 1644. The percentage of ones rolled was 16.44%.
+The number of sixes rolled was 1687. The percentage of ones rolled was 16.87%.

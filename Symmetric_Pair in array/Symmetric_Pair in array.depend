@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610423538 source:e:\c_programs\symmetric_pair in array\main.cpp
+	<iostream>
+	<unordered_map>
+	<bits/stdc++.h>
+

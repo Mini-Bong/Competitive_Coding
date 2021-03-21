@@ -1,0 +1,76 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define unfill 0
+#define N 9
+bool find_unassign_location(int grid[N][N], int &row, int &col);
+bool is_safe(int grid[N][N], int row, int col, int num);
+bool solve_sudoku(int grid[N][N])
+{
+    int row, col;
+    if(!find_unassign_location(grid, row, col))
+    {
+        return true;
+    }
+    for(int num = 1; num<=9; num++)
+    {
+        if(is_safe(grid, row, col, num))
+        {
+            grid[row][col] = num;
+            if(solve_sudoku(grid))
+            {
+                return true;
+            }
+            grid[row][col] = unfill;
+        }
+    }
+    return false;
+}
+bool find_unassign_location(int grid[N], int &row, int &col)
+{
+    for(row=0; row<N; row++)
+    {
+        for(col=0; col<N; col++)
+        {
+            if(grid[row][col]==unfill)
+            {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+bool usedRow(int grid[N][N], int row, int num)
+{
+    for(int col = 0; col<N; col++)
+    {
+        if(grid[row][col]==num)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+bool useCol(int grid[N][N], int col, int num)
+{
+    for(int row = 0; row<N; row++)
+    {
+        if(grid[row][col]==num)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+bool usedBox(grid[N][N], int row, int col, int num)
+{
+
+}
+bool is_safe(int grid[N][N], int row, int col, int num)
+{
+
+}
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
+}

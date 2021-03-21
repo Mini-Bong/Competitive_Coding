@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573883249 source:f:\c programs\prime_generation\main.cpp
+	<stdbool.h>
+	<iostream>
+	<stdio.h>
+

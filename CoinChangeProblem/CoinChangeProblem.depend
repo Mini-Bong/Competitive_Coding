@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1608698383 source:e:\c_programs\coinchangeproblem\main.cpp
+	<bits/stdc++.h>
+	"recursiveApproach.cpp"
+
+1608698437 e:\c_programs\coinchangeproblem\recursiveapproach.cpp
+	<bits/stdc++.h>
+
