@@ -38,7 +38,7 @@ string LongestPalindromicSubstr(string str)
 		}
 		low = i-1;
 		high = i+1;
-		while(low<=0 && high<n && str[low] == str[high])
+		while(low>=0 && high<n && str[low] == str[high])
 		{
 			if(high-low+1 > max_len)
 			{
