@@ -10,7 +10,7 @@ int pivotPoint(vector<int> arr, int low, int high)
         return low;
     }
     int mid = (low+high)/2;
-    if(mid<high && arr[low]>arr[mid+1]){
+    if(mid<high && arr[mid]>arr[mid+1]){
         return mid;
     }
     if(mid>low && arr[mid]<arr[mid-1]){
